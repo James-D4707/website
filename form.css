@@ -1,0 +1,55 @@
+form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: 0 auto;
+      border: 2px solid #1d2327;
+      padding: 25px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    label {
+      margin-top: 1px;
+      cursor: pointer;
+      color: #1d2327;
+
+    }
+    input {
+      padding: 10px;
+      margin-top: 5px;
+      
+
+    }
+    select {
+      padding: 10px;
+      margin-top: 5px;
+    }
+    div#t102 {
+      display: flexbox;
+      align-items: center;
+      padding: 0;
+    }
+    input[type="tel"] {
+      width: 66%;
+  
+    }
+    div#t101 {
+      display: flexbox;
+      align-items: center;
+      padding: 0;
+    }
+     input[type="radio"] {
+      margin-left: 10px;
+    }
+    input[type="submit"] {
+      background-color: #1d2327;
+      color: white;
+      border: none;
+      cursor: pointer;
+      
+    }
+    select{
+      cursor: pointer;
+    }
