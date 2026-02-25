@@ -1,0 +1,14 @@
+abbr[title] {
+    text-decoration: none;
+  }
+  footer {
+    padding: 1rem;
+    background-color:black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
