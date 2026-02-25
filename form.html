@@ -24,7 +24,7 @@
        <option value="+48">+48</option>
        <option value="+49">+49</option>
       </select>
-      <input type="tel" id="Phone" name="Number" placeholder="Enter your number" required autocomplete="off" pattern="^[0-9]+" maxlength="9" oninvalid="this.setCustomValidity('Please enter a valid phone number (digits only)!')" oninput="setCustomValidity('');this.blur();this.focus()">
+      <input type="tel" id="Phone" name="Number" placeholder="Enter your number" required autocomplete="off" pattern="^[0-9]+" minlength="9" maxlength="9" oninvalid="this.setCustomValidity('Please enter a valid phone number (digits only)!')" oninput="setCustomValidity('');this.blur();this.focus()">
     </div>
   <br>
   <input type="submit" value="Submit">
@@ -40,3 +40,4 @@
 </body>
 
 </html>
+
