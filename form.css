@@ -115,6 +115,3 @@ form {
     height: 20px;
     width: 20px;
   }
-a:focus {
-    outline: none;
-}
