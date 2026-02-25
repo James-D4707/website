@@ -7,23 +7,24 @@
   <link rel="stylesheet" href="/form.css"></link>
 </head>
 <body>
+ <body>
   <form action="/submit" method="post" id="myForm" multiple>
     <label for="Fullname">Full Name:</label>
-    <input type="text" id="Fullname" name="Fullname" placeholder="Enter your name" required autocomplete="on" oninvalid="setCustomValidity('Please enter a valid name!')" onchange="setCustomValidity('')"><br>
+    <input type="text" id="Fullname" name="Fullname" placeholder="Enter your name" required autocomplete="on" pattern="^[a-zA-Z\s]+$" oninvalid="this.setCustomValidity('Please enter a valid name!')" oninput="setCustomValidity('');this.blur();this.focus()"><br>
     <label for="Password">Password:</label>
-    <input type="password" id="Password" name="Password" placeholder="Enter your password" required autocomplete="on" oninvalid="setCustomValidity('Please enter a valid password!')" onchange="setCustomValidity('')"><br>
+    <input type="password" id="Password" name="Password" minlength="8" placeholder="Enter your password" required autocomplete="on" oninvalid="this.setCustomValidity('Please enter a valid password!')" oninput="setCustomValidity('');this.blur();this.focus()"><br>
     <label for="Email">Email:</label>
-    <input type="email" id="Email" name="Email" placeholder="Enter your email" required autocomplete="off" oninvalid="setCustomValidity('Please enter a valid email!')" onchange="setCustomValidity('')"><br>
+    <input type="email" id="Email" name="Email" placeholder="Enter your email" required autocomplete="off" oninvalid="this.setCustomValidity('Please enter a valid email!')" oninput="setCustomValidity('');this.blur();this.focus()"><br>
     <label for="Phone">Number:</label>
     <div id="t102">
-      <select id="Phonetype" name="PhoneType" required autocomplete="off" oninvalid="setCustomValidity('Please select a country code!')" onchange="setCustomValidity('')" >
+      <select id="Phonetype" name="PhoneType" required autocomplete="off" oninvalid="this.setCustomValidity('Please select a country code!')" oninput="setCustomValidity('');this.blur();this.focus()" >
         <option value="" disabled selected>-------</option>
        <option value="+380">+380</option>
        <option value="+977">+977</option>
        <option value="+48">+48</option>
        <option value="+49">+49</option>
       </select>
-      <input type="tel" id="Phone" name="Number" placeholder="Enter your number" required autocomplete="off" pattern="^[0-9]+" maxlength="9" oninvalid="setCustomValidity('Please enter a valid phone number (digits only)!')" onchange="setCustomValidity('')">
+      <input type="tel" id="Phone" name="Number" placeholder="Enter your number" required autocomplete="off" pattern="^[0-9]+" maxlength="9" oninvalid="this.setCustomValidity('Please enter a valid phone number (digits only)!')" oninput="setCustomValidity('');this.blur();this.focus()">
     </div>
   <br>
   <input type="submit" value="Submit">
@@ -37,4 +38,5 @@
     });
   </script>
 </body>
+
 </html>
