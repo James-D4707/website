@@ -67,13 +67,13 @@ form {
   display: flex;
   justify-content: space-around;
  }   
-  header ul li a{
+  header ul li span{
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
   }
- header ul li a:hover{
+ header ul li span:hover{
 color: none;   
   }
   span#t14 {
@@ -85,7 +85,7 @@ color: none;
     left: 10px;
     top: 5px;
   }
-  svg#t14:hover {
+  span#t14:hover {
     fill: white;
   }
   *{
