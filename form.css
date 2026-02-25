@@ -61,7 +61,7 @@ form {
  }
 
  header ul{
-  list-style-type: row;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
@@ -74,7 +74,7 @@ form {
     display: block;
   }
  header ul li a:hover{
-    
+color: none;   
   }
   svg#t14 {
     fill: white;
