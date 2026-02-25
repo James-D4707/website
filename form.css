@@ -76,7 +76,7 @@ form {
  header ul li a:hover{
 color: none;   
   }
-  svg#t14 {
+  span#t14 {
     fill: white;
     cursor: pointer;
     width: 50px;
@@ -110,7 +110,7 @@ color: none;
     top: 15px;
     right: 40px;
   }
-  svg#t17{
+  span#t17{
     color:black ;
     height: 20px;
     width: 20px;
