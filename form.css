@@ -61,7 +61,7 @@ form {
  }
 
  header ul{
-  list-style-type: none;
+  list-style-type: row;
   margin: 0;
   padding: 0;
   display: flex;
