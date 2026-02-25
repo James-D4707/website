@@ -8,7 +8,7 @@
 
  header {
   padding: 1rem;
-  background-color:black;
+  background-color: #1d1317;
  }
 
  header ul{
@@ -30,7 +30,7 @@
   }
   footer {
     padding: 1rem;
-    background-color:black;
+    background-color: #1d2327;
     color: white;
     text-align: center;
     display: flex;
