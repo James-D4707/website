@@ -1,5 +1,5 @@
 body {
-background-color: #ffffff;
+background-color: #d0d0d0;
 }
 form {
       display: flex;
@@ -12,7 +12,7 @@ form {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-color: #d7e1ec;
+      background-color: #ffffff;
     }
     label {
       margin-top: 1px;
