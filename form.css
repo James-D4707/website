@@ -1,0 +1,116 @@
+form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: 0 auto;
+      border: 2px solid #1d2327;
+      padding: 25px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    label {
+      margin-top: 1px;
+      cursor: pointer;
+      color: #1d2327;
+
+    }
+    input {
+      padding: 10px;
+      margin-top: 5px;
+
+
+    }
+    select {
+      padding: 10px;
+      margin-top: 5px;
+    }
+    div#t102 {
+      display: flexbox;
+      align-items: center;
+      padding: 0;
+    }
+    input[type="tel"] {
+      width: 66%;
+  
+    }
+    div#t101 {
+      display: flexbox;
+      align-items: center;
+      padding: 0;
+    }
+     input[type="radio"] {
+      margin-left: 10px;
+    }
+    input[type="submit"] {
+      background-color: #1d2327;
+      color: white;
+      border: none;
+      cursor: pointer;
+      
+    }
+    select{
+      cursor: pointer;
+    }
+    header {
+  padding: 1rem;
+  background-color: #1d2327;
+ }
+
+ header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+ }   
+  header ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+ header ul li a:hover{
+    
+    border-radius: 5px;
+  }
+  svg#t14 {
+    fill: white;
+    cursor: pointer;
+    width: 50px;
+    height: 39px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+  }
+  svg#t14:hover {
+    fill: white;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  footer {
+    padding: 4px;
+    background-color: #1d2327;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  span#a18 {
+    display: flex;
+    position: fixed;
+    text-align: right;
+    top: 15px;
+    right: 40px;
+  }
+  svg#t17{
+    color:black ;
+    height: 20px;
+    width: 20px;
+  }
