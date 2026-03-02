@@ -52,7 +52,13 @@
     
   }
 h1{
-font-size:small}
+font-size:15px;
+text-align: center;
+margin-top:10px;
+}
 .box{
+display:inline-flex;
 padding:20px;
+border-color:none;
+
 }
