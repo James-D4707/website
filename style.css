@@ -51,8 +51,8 @@
     text-align: right;
     
   }
-h1{
-font-size:15px;
+.head {
+font-size:20px;
 text-align: center;
 margin-top:10px;
 }
