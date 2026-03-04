@@ -58,7 +58,7 @@ text-align: center;
 margin-top:10px;
 font-weight:bold;
 }
-. container3{
+.container3{
 display: flex;
 align-items:flex-end;
 }
@@ -82,5 +82,9 @@ align-self: flex-start;
 
 
 }
+
 div ul li{
-font-style: italic;}
+font-style: italic;
+}
+
+.container
