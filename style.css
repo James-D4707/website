@@ -64,11 +64,8 @@ margin-top:10px;
 font-weight:bold;
 }
 . container3{
-display:block;
-border:5px solid black;
-weight:50wv;
-padding:20px;
-border-color:none;
+display: flex;
+align-items:flex-end;
 }
 
 img {
