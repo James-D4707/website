@@ -101,7 +101,9 @@ justify-content:center;
 align-self: flex-start;
 }
 
-.container{
+. main-text,
+img
+{
 display:flex;
 flex-flow:row nowrap;
 }
