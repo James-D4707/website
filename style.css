@@ -95,5 +95,5 @@ justify-content: center;
 
 .container{
 display:flex;
-flex-flow:row wrap;
+flex-flow:row nowrap;
 }
