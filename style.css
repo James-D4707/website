@@ -106,5 +106,10 @@ flex-flow:row nowrap;
 }
 .main-text{
 width:60vw;
-flex-flow:row wrap; 
+flex-flow:column wrap; 
+}
+
+p {
+display:flex;
+align-self: flex-start;
 }
