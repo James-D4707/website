@@ -11,6 +11,9 @@ body{
 background-color: white;
 
 }
+div {
+width:100vw;
+}
 
  header {
   padding: 0.4rem;
