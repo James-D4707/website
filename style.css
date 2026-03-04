@@ -97,7 +97,8 @@ font-style: italic;
 
 h2{
 display: flex;
-align-self: center;
+justify-content:center;
+align-self: flex-start;
 }
 
 .container{
