@@ -80,3 +80,10 @@ img {
 justify-content: right;
 height:50px;
 }
+.container2 {
+display:flex;
+justify-content:center;
+align-items:flex-end;
+flex-direction:row;
+
+}
