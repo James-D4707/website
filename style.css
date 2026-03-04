@@ -72,7 +72,7 @@ align-items:flex-end;
 img {
 display:flex;
 justify-content: flex-end;
-width:70px;
+width:40vw;
 }
 .container2 {
 display:flex;
@@ -102,4 +102,8 @@ justify-content: center;
 .container{
 display:flex;
 flex-flow:row nowrap;
+}
+.main-text{
+width:60vw;
+flex-flow:row wrap; 
 }
