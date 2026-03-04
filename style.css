@@ -82,8 +82,12 @@ height:50px;
 }
 .container2 {
 display:flex;
-justify-content:center;
+justify-content:space-around;
 align-items:flex-end;
 flex-direction:row;
+
+}
+.card{
+
 
 }
