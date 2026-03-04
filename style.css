@@ -86,7 +86,7 @@ flex-direction:row;
 display: flex;
 flex-flow: column wrap;
 justify-content:center;
-align-items: flex-start;
+align-self: flex-start;
 
 
 }
