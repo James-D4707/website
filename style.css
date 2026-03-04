@@ -9,12 +9,7 @@
 
 body{
 background-color: white;
-width:100vw;
 
-}
-div[class*="container"] {
-width:100vw;
-margin-top:80px;
 }
 
  header {
@@ -58,61 +53,3 @@ width:100vw;
     width: 20px;
   }
    
-.heading {
-font-size:25px;
-text-align: center;
-margin-top:10px;
-font-weight:bold;
-}
-.container3{
-display: flex;
-flex-flow:column wrap;
-align-items:flex-end;
-}
-
-img {
-display:flex;
-justify-content: flex-end;
-width:40vw;
-}
-.container2 {
-display:flex;
-justify-content:space-around;
-align-items:flex-start;
-flex-direction:row;
-
-}
-.card{
-display: flex;
-flex-flow: column wrap;
-justify-content:center;
-align-self: flex-start;
-
-
-}
-
-div ul li{
-font-style: italic;
-}
-
-h2{
-display: flex;
-justify-content:center;
-align-self: flex-start;
-}
-
-. main-text,
-img
-{
-display:flex;
-flex-flow:row nowrap;
-}
-.main-text{
-width:60vw;
-flex-flow:column wrap; 
-}
-
-p {
-display:flex;
-align-self: flex-start;
-}
