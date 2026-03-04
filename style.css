@@ -84,6 +84,7 @@ flex-direction:row;
 }
 .card{
 display: flex;
+flex-fly: column wrap;
 justify-content:center;
 align-items: flex-start;
 
