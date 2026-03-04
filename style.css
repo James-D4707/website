@@ -18,6 +18,7 @@ width:100vw;
  header {
   padding: 0.4rem;
   background-color: #1d2327;
+width:100vw;
  }
 
  header ul{
@@ -46,7 +47,7 @@ width:100vw;
     justify-content: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
   }
 
   svg#t17{
