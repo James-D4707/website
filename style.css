@@ -87,4 +87,8 @@ div ul li{
 font-style: italic;
 }
 
+h2{
+display: flex;
+justify-content: center;}
+
 .container
