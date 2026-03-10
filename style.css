@@ -15,7 +15,8 @@ background-color: white;
  header {
   padding: 0.4rem;
   background-color: #1d2327;
-width:100vw;
+  display: block;
+  position: fixed;
  }
 
  header ul{
