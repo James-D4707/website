@@ -17,6 +17,7 @@ background-color: white;
   background-color: #1d2327;
   display: block;
   position: fixed;
+  width:100vw;
  }
 
  header ul{
