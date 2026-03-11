@@ -20,6 +20,7 @@ to right,
   top:0;
   width:100vw;
 position:fixed;
+justify-content: space-around;
  }
 
  header ul{
@@ -27,7 +28,7 @@ position:fixed;
   margin: 0;
   padding: 1px;
   display: flex;
-  justify-content: space-around;
+  
  }   
   header ul li a{
     color: white;
