@@ -21,6 +21,7 @@ to right,
   top:0;
   flex-direction:row;
   position:fixed;
+  width:100vw;
  }
 
  header ul{
