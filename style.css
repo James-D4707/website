@@ -17,24 +17,20 @@ to right,
   padding: 0.4rem;
   background-color: #1d2327;
   display: flex;
+  justify-content:space-around;
   top:0;
-  width:100vw;
-position:sticky;
-justify-content: space-between;
  }
 
  header ul{
   list-style-type: none;
   margin: 0;
   padding: 1px;
-  display: flex;
   
  }   
   header ul li a{
     color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
+    padding: 0.5rem 1rem;
   }
   header ul li a:hover{
     background-color: #575757;
