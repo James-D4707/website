@@ -54,4 +54,5 @@ background: linear-gradient(#000B18, #00172D);
     height: 20px;
     width: 20px;
   }
-   
+   is(p, section, h2,h1){
+color:white;}
