@@ -14,10 +14,13 @@ to right,
 }
 
  header {
+ background-color:#1d2327;
+ padding:0.4rem;
+ display:block;
+ width:100vw;
  }
 
  header ul{
-  list-style-type: circle;
   margin: 0;
   padding: 1px;
   
