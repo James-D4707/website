@@ -19,6 +19,7 @@ to right,
   display: flex;
   top:0;
   width:100vw;
+position:fixed;
  }
 
  header ul{
@@ -47,6 +48,7 @@ to right,
     justify-content: center;
     bottom: 0;
     width: 100vw;
+position:fixed;
   }
 
   svg#t17{
