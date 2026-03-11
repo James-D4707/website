@@ -9,6 +9,7 @@
   }
 
 body{
+width:100vw;
 background: linear-gradient(
 to right,
 #000B18,#00172D);
