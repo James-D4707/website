@@ -20,7 +20,7 @@ to right,
   top:0;
   width:100vw;
 position:sticky;
-justify-content: space-around;
+justify-content: space-between;
  }
 
  header ul{
