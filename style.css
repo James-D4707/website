@@ -16,11 +16,11 @@ to right,
  header {
   padding: 0.4rem;
   background-color: #1d2327;
-  display: flex;
+  display: block;
   top:0;
   width:100vw;
 position:fixed;
-justify-content: space-between;
+justify-content: space-around;
  }
 
  header ul{
