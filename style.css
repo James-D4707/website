@@ -14,14 +14,6 @@ to right,
 }
 
  header {
-  padding: 0.4rem;
-  background-color: #1d2327;
-  display: flex;
-  justify-content:space-around;
-  top:0;
-  flex-direction:row;
-  position:fixed;
-  width:100vw;
  }
 
  header ul{
