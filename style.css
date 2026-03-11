@@ -19,6 +19,8 @@ to right,
   display: flex;
   justify-content:space-around;
   top:0;
+  flex-direction:row;
+  position:fixed;
  }
 
  header ul{
