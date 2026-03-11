@@ -15,10 +15,9 @@ background-color: white;
   padding: 0.4rem;
   background-color: #1d2327;
   display: block;
-  position: fixed;
+  position: sticky;
   top:0;
   width:100vw;
-  margin-bottom:70px;
  }
 
  header ul{
