@@ -9,8 +9,8 @@
 
 body{
 background: linear-gradient(
-to right,#1d2327,
-#000B18, #00172D);
+to right,#1d2327,#00172D,
+#000B18,);
 }
 
  header {
