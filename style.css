@@ -16,7 +16,7 @@ to right,
  header {
   padding: 0.4rem;
   background-color: #1d2327;
-  display: block;
+  display: flex;
   top:0;
   width:100vw;
 position:sticky;
