@@ -56,5 +56,8 @@ to right,
     height: 20px;
     width: 20px;
   }
-   is(p, section, h2,h1){
-text-color:white;}
+   p,
+   h1,
+   h2,
+   section,
+   {color:white;}
