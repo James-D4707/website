@@ -19,7 +19,7 @@ to right,
   display: block;
   top:0;
   width:100vw;
-position:fixed;
+position:sticky;
 justify-content: space-around;
  }
 
