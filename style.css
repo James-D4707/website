@@ -45,8 +45,7 @@ to right,
     color: white;
     text-align: center;
     display: flex;
-    justify-content: center;
-    position: fixed;
+    justify-content: center;
     bottom: 0;
     width: 100vw;
   }
