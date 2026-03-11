@@ -56,7 +56,5 @@ to right,
     height: 20px;
     width: 20px;
   }
-   p,
-   h1,
-   h2,
-   {font-color:white;}
+   p
+   {color:white;}
